@@ -1,0 +1,60 @@
+body, main{
+    margin: 0px;    
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(214, 214, 219);
+    display: flex;
+    justify-content: center;
+}
+.container .content{
+    width: 70%;
+    height: 45vh;
+    margin-top: 100px;
+    background-image: url('https://image.freepik.com/vector-gratis/color-rosa-fondo-onda-abstracta_72009.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.container .content h2{
+    margin: 20px 0px 30px 0px;    
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container .content p{
+    margin: 20px 0px 20px 0px;    
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#name, #email{
+    width: 270px;
+    border-radius: 10px;
+    padding: 6px;
+    outline: none;
+    border: none;
+}
+button{
+    width: 100px;
+    border-radius: 10px;
+    padding: 6px;
+    outline: none;
+    border: none;
+    background-color: coral;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: coral;
+    cursor: pointer;
+}
+
+
